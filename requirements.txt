@@ -1,0 +1,25 @@
+================================================================================================================================
+# Note: This file works on cloud GPU instances where the above libraries are pre-installed or can be installed without issues.
+================================================================================================================================
+
+
+
+# ==========================================
+# Abandoned Luggage Cloud GPU Pipeline
+# ==========================================
+
+# Core Object Detection & Tracking (BoT-SORT & YOLO)
+# Note: On a cloud GPU instance, this will automatically install the CUDA-enabled PyTorch
+ultralytics==8.2.2
+
+# Headless OpenCV for Video Processing
+# CRITICAL for cloud servers: Prevents missing libGL/GUI dependency crashes
+opencv-python-headless==4.9.0.80
+
+# Machine Learning (DBSCAN for Spatio-Temporal Group Clustering)
+scikit-learn==1.4.1.post1
+
+# Mathematical Operations
+# Capped below 2.0.0 to prevent breaking changes with older PyTorch/Scikit-Learn binaries
+numpy>=1.26.0,<2.0.0
+

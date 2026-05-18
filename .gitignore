@@ -1,0 +1,52 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE/editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# PyTorch / model weights
+*.pt
+*.pth
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Local environment and config
+.env
+.venv
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Optional media / large binary files
+*.mp4
+*.mov
+*.avi
+*.mkv
